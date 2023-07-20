@@ -57,12 +57,12 @@
 
   .list-name-box,
   .list-box {
-    width: 50%;
+    width: 70%;
   }
 
   .list-name,
   .new-task {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
 
   .list-box {
@@ -73,9 +73,8 @@
   }
 
   .button {
-    top: 30vh;
-    left: 88.5vw;
-    width: 17.5%;
+    margin-top: 2rem;
+    width: 20%;
   }
 
   .gg-close.done,
@@ -84,11 +83,7 @@
   }
 
   .gg-play-list-add {
-    display: none;
-  }
-
-  .gg-play-list-remove {
-    --ggs: 1 !important;
+    --ggs: 0.9;
   }
 
   .white-space-bottom {
@@ -96,14 +91,13 @@
   }
 
   .task-input textarea {
-    top: 72.5vh;
-    width: 25%;
-    height: 7.5%;
+    top: 75vh;
+    width: 20%;
+    height: 10%;
   }
 
   .task-count {
     font-size: 1.6rem;
-    /* top | right | bottom | left */
     margin: 0 0 0 80vw;
   }
 
@@ -145,7 +139,7 @@
   .list-name-box,
   .list-box,
   .white-space-bottom {
-    width: 75%;
+    width: 80%;
   }
 
   .list-name-box {
@@ -172,7 +166,7 @@
   }
 
   .task-input textarea {
-    top: 67.5vh;
+    top: 70vh;
   }
 }
 
