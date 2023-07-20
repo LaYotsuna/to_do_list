@@ -144,13 +144,8 @@ body {
 }
 
 .list-item:first-child {
-  /* background-color: red; */
   margin-top: 2.4rem;
 }
-
-/* .list-item:last-child {
-  background-color: red;
-} */
 
 .list-item {
   width: 85%;
@@ -242,7 +237,7 @@ body {
 .button {
   text-decoration: none;
   background-color: #9775fa;
-  padding: 1.2rem;
+  padding: 0.8rem;
   border-radius: 10rem;
   box-shadow: 0 0.2rem 2.4rem #7950f2;
   width: 12.5%;
@@ -258,7 +253,7 @@ body {
 }
 
 .new-task {
-  font-size: 3rem;
+  font-size: 2.4rem;
   font-weight: 600;
   color: #fff;
 }
@@ -266,7 +261,7 @@ body {
 .task-input textarea {
   width: 12.5%;
   height: auto;
-  padding: 1.2rem 1.6rem;
+  padding: 1.2rem;
   border: 0.4rem solid #9775fa;
   border-radius: 2.5rem;
   background-color: #fff;
