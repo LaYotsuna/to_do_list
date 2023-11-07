@@ -59,7 +59,6 @@ body {
   font-family: "Nunito", sans-serif;
   font-weight: 500;
   background-color: #e5dbff;
-
   /* Only works if there is nothing absolutely positioned in relation to body */
   /* overflow-x: hidden; */
   position: relative;
@@ -74,7 +73,6 @@ body {
   top: 50vh;
   left: 50vw;
   transform: translate(-50%, -50%);
-
   display: flex;
   flex-direction: column;
   gap: 0;
@@ -91,7 +89,6 @@ body {
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 2.5rem 2.5rem 0 0;
   position: relative;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +99,6 @@ body {
   color: #fff;
   --ggs: 1.5;
   cursor: pointer;
-
   position: absolute;
   left: 90%;
 }
@@ -124,7 +120,6 @@ body {
   width: 35%;
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
   margin-bottom: 6.4rem;
-
   display: flex;
   flex-direction: column;
   gap: 2.4rem;
@@ -209,7 +204,6 @@ body {
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 0 0 1rem 1rem;
   margin: 0 auto;
-
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -226,7 +220,6 @@ body {
   margin-top: -1rem;
   /* top-left | top-right | bottom-right | bottom-left */
   border-radius: 0 0 2.5rem 2.5rem;
-
   position: absolute;
   top: 80vh;
   left: 50vw;
@@ -245,7 +238,6 @@ body {
   align-items: center;
   justify-content: center;
   gap: 2.4rem;
-
   position: absolute;
   top: 82.5vh;
   left: 50%;
@@ -268,7 +260,6 @@ body {
   font-size: 1.6rem;
   resize: none;
   overflow: hidden;
-
   position: absolute;
   top: 72.5vh;
   left: 50vw;
